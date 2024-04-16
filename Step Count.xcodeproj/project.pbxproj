@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C19F24F32BCEE54D000B2190 /* Step Count Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C19F24F22BCEE54D000B2190 /* Step Count Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C19F24F82BCEE54D000B2190 /* Step_CountApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19F24F72BCEE54D000B2190 /* Step_CountApp.swift */; };
+		C19F24FA2BCEE54D000B2190 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19F24F92BCEE54D000B2190 /* ContentView.swift */; };
+		C19F24FC2BCEE54F000B2190 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C19F24FB2BCEE54F000B2190 /* Assets.xcassets */; };
+		C19F24FF2BCEE54F000B2190 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C19F24FE2BCEE54F000B2190 /* Preview Assets.xcassets */; };
+		C19F25092BCEE54F000B2190 /* Step_Count_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19F25082BCEE54F000B2190 /* Step_Count_Watch_AppTests.swift */; };
+		C19F25132BCEE54F000B2190 /* Step_Count_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19F25122BCEE54F000B2190 /* Step_Count_Watch_AppUITests.swift */; };
+		C19F25152BCEE54F000B2190 /* Step_Count_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19F25142BCEE54F000B2190 /* Step_Count_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C19F24F42BCEE54D000B2190 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C19F24E62BCEE54D000B2190 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C19F24F12BCEE54D000B2190;
+			remoteInfo = "Step Count Watch App";
+		};
+		C19F25052BCEE54F000B2190 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C19F24E62BCEE54D000B2190 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C19F24F12BCEE54D000B2190;
+			remoteInfo = "Step Count Watch App";
+		};
+		C19F250F2BCEE54F000B2190 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C19F24E62BCEE54D000B2190 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C19F24F12BCEE54D000B2190;
+			remoteInfo = "Step Count Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C19F251B2BCEE54F000B2190 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C19F24F32BCEE54D000B2190 /* Step Count Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C19F24EC2BCEE54D000B2190 /* Step Count.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Step Count.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C19F24F22BCEE54D000B2190 /* Step Count Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Step Count Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C19F24F72BCEE54D000B2190 /* Step_CountApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step_CountApp.swift; sourceTree = "<group>"; };
+		C19F24F92BCEE54D000B2190 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C19F24FB2BCEE54F000B2190 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C19F24FE2BCEE54F000B2190 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C19F25042BCEE54F000B2190 /* Step Count Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Step Count Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C19F25082BCEE54F000B2190 /* Step_Count_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step_Count_Watch_AppTests.swift; sourceTree = "<group>"; };
+		C19F250E2BCEE54F000B2190 /* Step Count Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Step Count Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C19F25122BCEE54F000B2190 /* Step_Count_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step_Count_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		C19F25142BCEE54F000B2190 /* Step_Count_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step_Count_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C19F24EF2BCEE54D000B2190 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19F25012BCEE54F000B2190 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19F250B2BCEE54F000B2190 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C19F24E52BCEE54D000B2190 = {
+			isa = PBXGroup;
+			children = (
+				C19F24F62BCEE54D000B2190 /* Step Count Watch App */,
+				C19F25072BCEE54F000B2190 /* Step Count Watch AppTests */,
+				C19F25112BCEE54F000B2190 /* Step Count Watch AppUITests */,
+				C19F24ED2BCEE54D000B2190 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C19F24ED2BCEE54D000B2190 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C19F24EC2BCEE54D000B2190 /* Step Count.app */,
+				C19F24F22BCEE54D000B2190 /* Step Count Watch App.app */,
+				C19F25042BCEE54F000B2190 /* Step Count Watch AppTests.xctest */,
+				C19F250E2BCEE54F000B2190 /* Step Count Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C19F24F62BCEE54D000B2190 /* Step Count Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				C19F24F72BCEE54D000B2190 /* Step_CountApp.swift */,
+				C19F24F92BCEE54D000B2190 /* ContentView.swift */,
+				C19F24FB2BCEE54F000B2190 /* Assets.xcassets */,
+				C19F24FD2BCEE54F000B2190 /* Preview Content */,
+			);
+			path = "Step Count Watch App";
+			sourceTree = "<group>";
+		};
+		C19F24FD2BCEE54F000B2190 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C19F24FE2BCEE54F000B2190 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C19F25072BCEE54F000B2190 /* Step Count Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C19F25082BCEE54F000B2190 /* Step_Count_Watch_AppTests.swift */,
+			);
+			path = "Step Count Watch AppTests";
+			sourceTree = "<group>";
+		};
+		C19F25112BCEE54F000B2190 /* Step Count Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C19F25122BCEE54F000B2190 /* Step_Count_Watch_AppUITests.swift */,
+				C19F25142BCEE54F000B2190 /* Step_Count_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Step Count Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C19F24EB2BCEE54D000B2190 /* Step Count */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C19F251C2BCEE54F000B2190 /* Build configuration list for PBXNativeTarget "Step Count" */;
+			buildPhases = (
+				C19F24EA2BCEE54D000B2190 /* Resources */,
+				C19F251B2BCEE54F000B2190 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C19F24F52BCEE54D000B2190 /* PBXTargetDependency */,
+			);
+			name = "Step Count";
+			productName = "Step Count";
+			productReference = C19F24EC2BCEE54D000B2190 /* Step Count.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		C19F24F12BCEE54D000B2190 /* Step Count Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C19F25182BCEE54F000B2190 /* Build configuration list for PBXNativeTarget "Step Count Watch App" */;
+			buildPhases = (
+				C19F24EE2BCEE54D000B2190 /* Sources */,
+				C19F24EF2BCEE54D000B2190 /* Frameworks */,
+				C19F24F02BCEE54D000B2190 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Step Count Watch App";
+			productName = "Step Count Watch App";
+			productReference = C19F24F22BCEE54D000B2190 /* Step Count Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C19F25032BCEE54F000B2190 /* Step Count Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C19F251F2BCEE54F000B2190 /* Build configuration list for PBXNativeTarget "Step Count Watch AppTests" */;
+			buildPhases = (
+				C19F25002BCEE54F000B2190 /* Sources */,
+				C19F25012BCEE54F000B2190 /* Frameworks */,
+				C19F25022BCEE54F000B2190 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C19F25062BCEE54F000B2190 /* PBXTargetDependency */,
+			);
+			name = "Step Count Watch AppTests";
+			productName = "Step Count Watch AppTests";
+			productReference = C19F25042BCEE54F000B2190 /* Step Count Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C19F250D2BCEE54F000B2190 /* Step Count Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C19F25222BCEE54F000B2190 /* Build configuration list for PBXNativeTarget "Step Count Watch AppUITests" */;
+			buildPhases = (
+				C19F250A2BCEE54F000B2190 /* Sources */,
+				C19F250B2BCEE54F000B2190 /* Frameworks */,
+				C19F250C2BCEE54F000B2190 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C19F25102BCEE54F000B2190 /* PBXTargetDependency */,
+			);
+			name = "Step Count Watch AppUITests";
+			productName = "Step Count Watch AppUITests";
+			productReference = C19F250E2BCEE54F000B2190 /* Step Count Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C19F24E62BCEE54D000B2190 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					C19F24EB2BCEE54D000B2190 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					C19F24F12BCEE54D000B2190 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					C19F25032BCEE54F000B2190 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = C19F24F12BCEE54D000B2190;
+					};
+					C19F250D2BCEE54F000B2190 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = C19F24F12BCEE54D000B2190;
+					};
+				};
+			};
+			buildConfigurationList = C19F24E92BCEE54D000B2190 /* Build configuration list for PBXProject "Step Count" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C19F24E52BCEE54D000B2190;
+			productRefGroup = C19F24ED2BCEE54D000B2190 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C19F24EB2BCEE54D000B2190 /* Step Count */,
+				C19F24F12BCEE54D000B2190 /* Step Count Watch App */,
+				C19F25032BCEE54F000B2190 /* Step Count Watch AppTests */,
+				C19F250D2BCEE54F000B2190 /* Step Count Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C19F24EA2BCEE54D000B2190 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19F24F02BCEE54D000B2190 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19F24FF2BCEE54F000B2190 /* Preview Assets.xcassets in Resources */,
+				C19F24FC2BCEE54F000B2190 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19F25022BCEE54F000B2190 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19F250C2BCEE54F000B2190 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C19F24EE2BCEE54D000B2190 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19F24FA2BCEE54D000B2190 /* ContentView.swift in Sources */,
+				C19F24F82BCEE54D000B2190 /* Step_CountApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19F25002BCEE54F000B2190 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19F25092BCEE54F000B2190 /* Step_Count_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19F250A2BCEE54F000B2190 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19F25152BCEE54F000B2190 /* Step_Count_Watch_AppUITestsLaunchTests.swift in Sources */,
+				C19F25132BCEE54F000B2190 /* Step_Count_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C19F24F52BCEE54D000B2190 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C19F24F12BCEE54D000B2190 /* Step Count Watch App */;
+			targetProxy = C19F24F42BCEE54D000B2190 /* PBXContainerItemProxy */;
+		};
+		C19F25062BCEE54F000B2190 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C19F24F12BCEE54D000B2190 /* Step Count Watch App */;
+			targetProxy = C19F25052BCEE54F000B2190 /* PBXContainerItemProxy */;
+		};
+		C19F25102BCEE54F000B2190 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C19F24F12BCEE54D000B2190 /* Step Count Watch App */;
+			targetProxy = C19F250F2BCEE54F000B2190 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C19F25162BCEE54F000B2190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C19F25172BCEE54F000B2190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C19F25192BCEE54F000B2190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Step Count Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Step Count";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "indieinteractive.Step-Count.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		C19F251A2BCEE54F000B2190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Step Count Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Step Count";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "indieinteractive.Step-Count.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		C19F251D2BCEE54F000B2190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = "Step Count";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "indieinteractive.Step-Count";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C19F251E2BCEE54F000B2190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = "Step Count";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "indieinteractive.Step-Count";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C19F25202BCEE54F000B2190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "indieinteractive.Step-Count-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Step Count Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Step Count Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		C19F25212BCEE54F000B2190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "indieinteractive.Step-Count-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Step Count Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Step Count Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		C19F25232BCEE54F000B2190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "indieinteractive.Step-Count-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Step Count Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		C19F25242BCEE54F000B2190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "indieinteractive.Step-Count-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Step Count Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C19F24E92BCEE54D000B2190 /* Build configuration list for PBXProject "Step Count" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C19F25162BCEE54F000B2190 /* Debug */,
+				C19F25172BCEE54F000B2190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C19F25182BCEE54F000B2190 /* Build configuration list for PBXNativeTarget "Step Count Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C19F25192BCEE54F000B2190 /* Debug */,
+				C19F251A2BCEE54F000B2190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C19F251C2BCEE54F000B2190 /* Build configuration list for PBXNativeTarget "Step Count" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C19F251D2BCEE54F000B2190 /* Debug */,
+				C19F251E2BCEE54F000B2190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C19F251F2BCEE54F000B2190 /* Build configuration list for PBXNativeTarget "Step Count Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C19F25202BCEE54F000B2190 /* Debug */,
+				C19F25212BCEE54F000B2190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C19F25222BCEE54F000B2190 /* Build configuration list for PBXNativeTarget "Step Count Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C19F25232BCEE54F000B2190 /* Debug */,
+				C19F25242BCEE54F000B2190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C19F24E62BCEE54D000B2190 /* Project object */;
+}
